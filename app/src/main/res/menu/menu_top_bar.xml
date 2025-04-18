@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCurtidas"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_favorite_border"
+        android:title="@string/curtidas" />
+    <item
+        android:id="@+id/mMensagens"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_message"
+        android:title="@string/mensagens" />
+</menu>
